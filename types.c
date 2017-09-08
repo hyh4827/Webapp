@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main(int argc, char const *argv[])
+{
+	printf("The size of some fundamental types is computed.\n\n");
+	printf(" 	 char:%3lu byte \n", sizeof(char));
+	printf("	short:%3lu bytes\n", sizeof(short));
+	printf("	  int:%3lu bytes\n", sizeof(int));
+	printf("	 long:%3lu bytes\n", sizeof(long));
+	printf("     unsigned:%3lu bytes\n", sizeof(unsigned));
+	return 0;
+}
